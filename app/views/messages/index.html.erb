@@ -5,3 +5,4 @@
 <%= simple_form_for  @message, remote:true  do |f| %>
 <%= f.input :content %>
 <% end %>
+<%= subscribe_to "/message/new" %>
